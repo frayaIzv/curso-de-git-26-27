@@ -1,4 +1,4 @@
-import sys
-// Autor: Sergio <sergio@uco.es>
-nombre = sys.argv[1] if len(sys.argv) > 1 else "Mundo"
+# Autor: Sergio Gómez <sergio@uco.es>
+print("Introduce tu nombre:")
+nombre = input().strip()
 print(f"Hola, {nombre}")
