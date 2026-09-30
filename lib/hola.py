@@ -1,7 +1,7 @@
-import sys
-// Autor: Sergio <sergio@uco.es>
+# Autor: Sergio Gómez <sergio@uco.es>
 
 from HolaMundo import HolaMundo
 
-nombre = sys.argv[1] if len(sys.argv) > 1 else "Mundo"
+print("Introduce tu nombre:")
+nombre = input().strip()
 print(HolaMundo(nombre))
