@@ -2,6 +2,6 @@
 
 from HolaMundo import HolaMundo
 
-print("Introduce tu nombre:")
+print("Enter your name:")
 nombre = input().strip()
 print(HolaMundo(nombre))
